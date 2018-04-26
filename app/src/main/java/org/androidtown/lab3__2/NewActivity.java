@@ -18,6 +18,11 @@ public class NewActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+        //NO TITLE BAR
+        supportRequestWindowFeature(Window.FEATURE_NO_TITLE);
+
+        //SUPER
         super.onCreate(savedInstanceState);
 
         //INFLATE
