@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    //TABLE LAYOUT INSIDE THE LINEAR LAYOUT
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        //1ST ROW
+        <TableRow>
+            <TextView
+                android:id="@+id/txt4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="성명"/>
+            <TextView
+                android:id="@+id/txt5"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content" />
+        </TableRow>
+
+        //2ND ROW
+        <TableRow>
+            <TextView
+                android:id="@+id/txt6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="성별"/>
+            <TextView
+                android:id="@+id/txt7"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content" />
+        </TableRow>
+
+        //3RD ROW
+        <TableRow>
+            <TextView
+                android:id="@+id/txt8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="수신여부"
+                android:layout_marginRight="10dp" />
+            <TextView
+                android:id="@+id/txt9"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content" />
+        </TableRow>
+    </TableLayout>
+
+    //BUTTON
+    <Button
+        android:id="@+id/btn"
+        android:layout_column="2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="이전" />
+
+</LinearLayout>
