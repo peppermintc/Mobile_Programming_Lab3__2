@@ -17,8 +17,10 @@
             </intent-filter>
         </activity>
 
-        //NEW ACTIVITY
-        <activity android:name=".NewActivity"></activity>
+        //NEW ACTIVITY & NO TITLE BAR
+        <activity
+            android:name=".NewActivity"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
 
     </application>
 
